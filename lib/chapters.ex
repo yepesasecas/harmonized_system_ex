@@ -6,7 +6,7 @@ defmodule HarmonizedSystemEx.Chapters do
   alias HarmonizedSystemEx.Loader
 
   def load do
-    Loader.load_file("./lib/data/chapters.csv")
+    Loader.load_file("chapters.csv")
     |> define_struct()
   end
 

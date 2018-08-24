@@ -6,7 +6,7 @@ defmodule HarmonizedSystemEx.Subheadings do
   alias HarmonizedSystemEx.Loader
 
   def load do
-    Loader.load_file("./lib/data/subheadings.csv")
+    Loader.load_file("subheadings.csv")
     |> define_struct()
   end
 
