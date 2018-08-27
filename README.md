@@ -1,6 +1,5 @@
 # HarmonizedSystemEx
-
-**TODO: Add description**
+Harmonized System csv files loaded as Elixir Maps.
 
 ## Installation
 
